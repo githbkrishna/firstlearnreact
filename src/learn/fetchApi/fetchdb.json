@@ -1,0 +1,65 @@
+{
+  "devlopers": [
+    {
+      "id": 1,
+      "fullname": "Gita Singh",
+      "userId": "abc@mail.com",
+      "role": "Frontend Devloper",
+      "age": 12,
+      "imgurl": "https://images.pexels.com/photos/1684724/pexels-photo-1684724.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptatum  minus."
+    },
+    {
+      "id": 2,
+      "fullname": "om Singh",
+      "userId": "abc@mail.com",
+      "role": "Frontend Devloper",
+      "age": 22,
+      "imgurl": "https://images.pexels.com/photos/879474/pexels-photo-879474.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptatum  minus."
+    },
+    {
+      "id": 3,
+      "fullname": "Hariii Bhai",
+      "userId": "abc@mail.com",
+      "role": "Frontend Devloper",
+      "age": 24,
+      "imgurl": "https://images.pexels.com/photos/2561432/pexels-photo-2561432.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptatum  minus."
+    },
+    {
+      "id": 4,
+      "fullname": "Radhe Krishna",
+      "userId": "abc@mail.com",
+      "role": "Frontend Devloper",
+      "age": 18,
+      "imgurl": "https://images.pexels.com/photos/15344872/pexels-photo-15344872/free-photo-of-woman-wearing-traditional-dress-in-a-park.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptatum  minus."
+    },
+    {
+      "id": 5,
+      "fullname": "Kavita Raj",
+      "userId": "abc@mail.com",
+      "role": "Frontend Devloper",
+      "age": 32,
+      "imgurl": "https://images.pexels.com/photos/9317208/pexels-photo-9317208.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptatum  minus."
+    },
+    {
+      "fullname": "fool",
+      "role": "fragnance",
+      "age": "2",
+      "imgurl": "https://images.pexels.com/photos/9248672/pexels-photo-9248672.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+      "para": "A flower, also known as a bloom or blossom, is the reproductive structure found in flowering plants",
+      "id": 6
+    },
+    {
+      "fullname": "light ball",
+      "role": "light",
+      "age": "2",
+      "imgurl": "https://images.pexels.com/photos/19574710/pexels-photo-19574710/free-photo-of-bokeh-lights.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+      "para": "Light is defined as the electromagnetic radiation with wavelengths between 380 and 750 nm which is visible to the human eye.",
+      "id": 7
+    }
+  ]
+}

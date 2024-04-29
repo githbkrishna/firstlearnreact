@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: burlywood; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* tailwind css utilities */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* tailwind css utilities */
+
+
+
+/* app starts */
+
+/* #app h1{
+    / background-color: red; /
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-size: 3vw;
+} */
+
+/* .section{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+
+/* app.js style  */
+
+/* .container{
+    width: 200px;
+    / height: 200px; /
+    text-align: center;
+    border: 2px solid red;
+    font-size: 2vw;
+    padding: 10px 0;
+}
+
+.container h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(0, 60, 255);
+} */
+
+
+/* Basic1 style  */
+
+/* img{
+    width: 200px;
+    height: 200px;
+} */
+
+.containers{
+    width: 100%;
+    height: 100vh;
+    padding: 20px 0;
+}
+
+.containers>h1{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.containers p{
+    padding: 0 6%;
+    margin: 2vw 0;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 1vw;
+}
+
+.contain{
+    width: 27%;
+    border: 2px solid black;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 1vw 0;
+}
+
+.contain:hover{
+    box-shadow: 0 0 5px 2px black;
+}
+
+.contain h1{
+    font-size: 1.8vw;
+    text-align: start;
+}
+
+.contain span{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.contain span img{
+    width: 100%;
+    height: 100%;
+    transition: all 2s linear;
+}
+
+.contain:hover img{
+    scale: 1.2;
+}
+
+
+/* CardImg style  */
+
+
+/* propscont start */
+
+.propscontainer{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.propscontainer>h2{
+    text-transform: capitalize;
+    padding: 1vw 0;
+}
+
+.propscontain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.propscont{
+    width: 250px;
+    height: 300px;
+    border: 2px solid black;
+    overflow: hidden;
+    position: relative;
+}
+
+.propscont img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s linear;
+}
+
+.propscont .show{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.781);
+    border: 2px solid black;
+    color: white;
+    position: absolute;
+    top: 100%;
+    transition: all 1s ease-in-out;
+}
+
+.propscont span{
+    color: blue;
+}
+
+.propscont:hover .show{
+    top: 50%;
+}
+
+.propscont:hover img{
+    scale: 1.2;
+}
+
+
+
+/* cards start  */
+
+.cards{
+    width: 20rem;
+    height: 25rem;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.cards img{
+    width: 100%;
+    height: 70%;
+}
+
+.cards .details{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cards .addtocart{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cards .addtocart span{
+    background-color: rgb(73, 72, 95);
+    padding: 10px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+
+
